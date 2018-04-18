@@ -1,0 +1,7 @@
+Solving Loops and Conditionals Summary
+1) This lab is pretty straight forward and seems to have very detailed instructions
+2) Make sure the students can access the morning_lab_solutions.js file contained within the repository
+  a) This .js file will serve a a worksheet for them to put the answers to the question in.
+3) This most difficult problem in the lab will be the last one, which is notated as Multiples of 3 and 5
+  a) There us a possibility that students won't be able to finish this last algo as it is slightly advanced
+  b) Daniel will try to provide solutions to these prior to Wednesday.

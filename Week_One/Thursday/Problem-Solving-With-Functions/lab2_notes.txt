@@ -1,0 +1,2 @@
+Summary: This lab is very straight forward and the workload is faily light.
+1) A solutions guide didn't seem to be necessary for this lab

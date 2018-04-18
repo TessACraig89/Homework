@@ -1,0 +1,1 @@
+## For tonight's homework, the students will take what they learned from today's live coding of an OOP orange tree in the python language and practice creating something similar using the same methodology 

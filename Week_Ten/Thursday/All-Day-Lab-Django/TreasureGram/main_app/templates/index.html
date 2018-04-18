@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+  {% block content %}
+  {% for treasure in treasures %}
+    <a href="/{{treasure.id}}">
+      <p>Name: {{ treasure.name }}</p>
+    </a>
+    <a href="/user/{{treasure.user.username}}"
+      <p>Found By: {{treasure.user.username }}</p>
+    </a>
+    {% if treasure.value > 0 %}
+      <p>Value: {{ treasure.value}}</p>
+    {% else %}
+      <p>Value: Unknown</p>
+    {% endif%}
+    <button id ="likes" data-id="{{treasure.id}}" class="btn btn-mini btn-danger glyphicon glyphicon-heart" type="button">Likes:
+            {% if treasure.likes > 0 %} {{ treasure.likes }}{% else %} None :({% endif %}
+          </button>
+    <hr />
+  {% endfor %}
+  <form action="post_url/" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Submit" />
+  </form>
+{% endblock %}

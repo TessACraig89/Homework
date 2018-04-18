@@ -1,0 +1,5 @@
+Summary:
+1)This is a partnered activity, so we'll need to make sure students find a partner to work with quickly.
+2) Students will take turns as one of them will be pushing to github and the other will fork themselves a copy.
+3) The student who forks a copy will make changes to the .js file and then submit a pull request once they've pushed their version up
+4) There are a ton of solution links throughout the lab that students/instructors can checkout for reference.

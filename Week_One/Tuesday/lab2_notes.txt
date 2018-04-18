@@ -1,0 +1,5 @@
+Summary Kyrell Game:
+0) Question: Should students fork a copy of this game to their remote repos?
+1) Daniel checked all of the links for functionality.
+2) There is a solutions folder contained inside the repo along with the exercises.
+3) The instructions are very thorough in this lab and shouldn't be too hard to follow along with.
